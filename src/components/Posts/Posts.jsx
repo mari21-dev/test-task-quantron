@@ -56,10 +56,6 @@ export const Posts = () => {
             <h1>Posts on stackoverflow</h1>
             {loading && <p>Loading...</p>}
 
-            {error && (
-                <div>{`There is a problem fetching the post data - ${error}`}</div>
-            )}
-
             <div className="button__sort">
                 <button onClick={handleSort}>Sort
                     <img className={rotateArrow ? "arrow-up" : "arrow-down"} src={Arrow} />
@@ -72,6 +68,10 @@ export const Posts = () => {
                     )
                 )}
             </div>
+
+            {error && (
+                <div>{`There is a problem fetching the post data - ${error}`}</div>
+            )}
         </div>
     );
 };
