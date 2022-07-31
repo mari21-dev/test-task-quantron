@@ -8,28 +8,28 @@ https://api.stackexchange.com/2.2/search?intitle=react&site=stackoverflow
 
 ## Запуск проекта
 
-## `git clone https://github.com/mari21-dev/test-task-quantron.git`
+### `git clone https://github.com/mari21-dev/test-task-quantron.git`
 
 Клонировать репозиторий к себе
 
-## `cd test-task-quantron/`
+### `cd test-task-quantron/`
 
 Перейти в директорию проекта
 
-## `npm install`
+### `npm install`
 
 Установить зависимости проекта
 
-## `npm start`
+### `npm start`
 
 Запустить проект в режиме разработки
 
-## `npm run build`
+### `npm run build`
 
 Запустить проект в production режиме
 
-## Просмотр проекта на телефоне
 
+## Просмотр проекта на телефоне
 
 ### Найдите свой локальный IP-адрес.
 
